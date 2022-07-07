@@ -16,7 +16,7 @@ export default function Home() {
     longTerm: '',
   });
 
-  const [singleTaxTable, setSingleTaxTable] = useState({
+  const [singleTaxTable] = useState({
     tenPercent: 9950,
     twelvePercent: 40525,
     twentytwoPercent: 86375,
@@ -26,7 +26,7 @@ export default function Home() {
     thirtysevenPercent: 0
   })
 
-  const [marriedJointTaxTable, setMarriedJointTaxTable] = useState({
+  const [marriedJointTaxTable] = useState({
     tenPercent: 19900,
     twelvePercent: 81050,
     twentytwoPercent: 172750,
@@ -36,7 +36,7 @@ export default function Home() {
     thirtysevenPercent: 0
   })
 
-  const [marriedSeparateTaxTable, setMarriedSeparateTaxTable] = useState({
+  const [marriedSeparateTaxTable] = useState({
     tenPercent: 9950,
     twelvePercent: 40525,
     twentytwoPercent: 86375,
@@ -46,7 +46,7 @@ export default function Home() {
     thirtysevenPercent: 0
   })
 
-  const [headOfHouseholdTaxTable, setHeadOfHouseholdTaxTable] = useState({
+  const [headOfHouseholdTaxTable] = useState({
     tenPercent: 14200,
     twelvePercent: 54200,
     twentytwoPercent: 86350,
